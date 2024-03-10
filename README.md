@@ -9,3 +9,4 @@ The VCO inside EUCLID+ can run asynchronously to the applied clock, giving the r
 
 Alternatively, EUCLID+ can hard-sync its VCO to the clock divider output. In this condition, the rhythm pattern is fixed, having the same period as the clock divider. The output rhythm in this synchronous mode includes the familiar Euclidean Rhythms (of length 2:31).
 
+EUCLID+ is published under [CC BY-SA 4.0 License](https://github.com/m0xpd/EUCLIDplus/blob/main/LICENSE.txt).
