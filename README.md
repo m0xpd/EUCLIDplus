@@ -11,7 +11,7 @@ EUCLID+ combines the clock input and the signal from the clock multiplier to pro
 
 The VCO inside EUCLID+ can run asynchronously to the applied clock, giving the resulting rhythm outputs a useful varying quality, but one which retains much of the structure (/correlation or 'feel') of the behaviour in synchronous mode.
 
-Alternatively, EUCLID+ can hard-sync its VCO to the clock divider output. In this condition, the rhythm pattern is fixed, having the same period as the clock divider. The output rhythm in this synchronous mode includes the familiar [Euclidean Rhythms](https://en.wikipedia.org/wiki/Euclidean_rhythm) (of length up to 30). Note that the complement of a Euclidean Rhythm is itself Euclidean; the COMP output produces musically useful triggers for primary voices in complementary and interlocking rhythmic patterns as well as for producing "ghost notes".
+Alternatively, EUCLID+ can hard-sync its VCO to the clock divider output. In this condition, the output pattern is fixed, having the same period as the clock divider. The patterns in this synchronous mode include the familiar [Euclidean Rhythms](https://en.wikipedia.org/wiki/Euclidean_rhythm) (of length up to 30). Note that the complement of a Euclidean Rhythm is itself Euclidean; the COMP output produces musically useful triggers for primary voices in complementary and interlocking rhythmic patterns as well as for producing "ghost notes".
 
 Full design details for EUCLID+ including schematics, PCB layouts and a Front Panel design, are presented in the hardware folder.  
 
