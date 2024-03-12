@@ -7,11 +7,11 @@ EUCLID+ divides the applied clock signal by any integer clock division (up to 30
 
 EUCLID+ includes an integral VCO, which can serve as a voltage controlled clock multiplier. Signals from the clock divider and clock multiplier are available for external use on the DIVIDE and MULT outputs. 
 
-EUCLID+ combines the clock input and the signal from the clock multiplier to provide gate patterns on the RHYTHM output. The 1's complements of these patterns (i.e. the set of triggers defined when there are no trigger onsets on the RHYTHM output) appear on the COMP output. The duty cycle of the PATTERN and COMP outputs follows that of the input Clock waveform.
+EUCLID+ combines the clock input and the signal from the clock multiplier to provide gate patterns on the RHYTHM output. The complements of these patterns appear on the COMP output. The duty cycle of the PATTERN and COMP outputs follows that of the input Clock waveform.
 
 The VCO inside EUCLID+ can run asynchronously to the applied clock, giving the resulting rhythm outputs a useful varying quality, but one which retains much of the structure (/correlation or 'feel') of the behaviour in synchronous mode.
 
-Alternatively, EUCLID+ can hard-sync its VCO to the clock divider output. In this condition, the rhythm pattern is fixed, having the same period as the clock divider. The output rhythm in this synchronous mode includes the familiar Euclidean Rhythms (of length 2:30).
+Alternatively, EUCLID+ can hard-sync its VCO to the clock divider output. In this condition, the rhythm pattern is fixed, having the same period as the clock divider. The output rhythm in this synchronous mode includes the familiar Euclidean Rhythms (of length 2:30). Note that the complement of a Euclidean Rhythm is also Euclidean; the COMP output produces a musically useful set of triggers for primary voices in complementary and interlocking rhythmic patterns as well as for playing "ghost notes".
 
 Full design details for EUCLID+ including schematics, PCB layouts and a Front Panel design, are presented in the hardware folder.  
 
