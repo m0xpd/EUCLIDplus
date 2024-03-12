@@ -11,8 +11,32 @@ EUCLID+ combines the clock input and the signal from the clock multiplier to pro
 
 EUCLID+ can hard-sync its VCO to the clock divider output. In this condition, the output pattern is fixed, having the same period as the clock divider. The patterns in this synchronous mode include the familiar [Euclidean Rhythms](https://en.wikipedia.org/wiki/Euclidean_rhythm) (of length up to 30). Note that the complement of a Euclidean Rhythm is itself Euclidean; the COMP output produces musically useful triggers for primary voices in complementary and interlocking rhythmic structures as well as for producing "ghost notes".
 
-Alternatively, the VCO inside EUCLID+ can run asynchronously to the applied clock, giving the resulting pattern outputs a useful varying quality, but one which retains much of the structure (/correlation/'feel') of the behaviour in synchronous mode.
+Alternatively, the VCO inside EUCLID+ can run asynchronously to the applied clock, giving the resulting pattern outputs a useful varying quality, but one which retains much of the structure (/correlation/'feel') of the behaviour in synchronous mode. Careful tuning of the VCO in asynchronous mode can exploit this variation to impart slow, organic change into what can otherwise be a dry, sterile, mechanistic process.
+
+All aspects of the operation of EUCLID+ are accessible under CV control.
 
 Full design details for EUCLID+ including schematics, PCB layouts and a Front Panel design, are presented in the hardware folder.  
 
 EUCLID+ is published under [CC BY-SA 4.0 License](https://github.com/m0xpd/EUCLIDplus/blob/main/LICENSE.txt).
+
+# Specifications
+
+**Width:** 
+
+EUCLID+ is **16HP wide**.
+
+**Depth:**
+
+EUCLID+ extends **xx mm** behind the front panel when a conventional Eurorack power header **with strain relief** is inserted 
+
+If your power header doesn't have a strain relief (which is probably more typical, judging by the power cables delivered with commercial modules) the depth is limited by xxx; in this situation EUCLID+ extends **xxmm** behind the front panel.
+
+**Power Consumption:**
+
+| Power Rail | Current |
+|---|---|
+| +12V | **xxmA** |
+| -12V | **xxmA** |
+| 5V | **0** |
+
+(peak currents).
