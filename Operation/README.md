@@ -28,7 +28,7 @@ This is achieved by the additional logic (U8, gates D and C) ahead of the S-R fl
 <img width=80%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Operation/Collateral/EUCLID%2B%20State%20Machine.png">
 </p>
 
-This amounts to what I have described as 'conditional modulation' (for want of a better phrase) - rather than simply forming the logical AND of the clock and the internal oscillator (equivalent to multipliying the signals), derivation of the FIRST signal and its use in the formation of the SET input to the second S-R fip flop imposes a conditionality to the modulation, which gives the interesting rhythmic patterns we seek. 
+This amounts to what I describe as 'conditional modulation' (for want of a better phrase) - rather than simply forming the logical AND of the clock and the internal oscillator (equivalent to multipliying the signals), derivation of the FIRST signal and its use in the formation of the SET input to the second S-R fip flop imposes a conditionality to the modulation, which gives the interesting rhythmic patterns we seek. 
 
 When x is not an integer, there are not a fixed number of periods of the 'Osc' signal in the repeat period (L times the clock period). This can make the resulting output change continually, which can give a useful result (particularly if x is close to an integer or is close to a ratio of small integers, like x~3/2). 
 
