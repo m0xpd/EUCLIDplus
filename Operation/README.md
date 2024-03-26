@@ -44,14 +44,33 @@ Having outlined the principle of operation, I'll now give a description of the m
 
 EUCLID+ is realised using 4000 series logic and op-amps, on two Printed Circuit boards, the schematics of which are described separately below.
 
-## Main Board
+# Main Board
 
-The Main Board schematic is linked below (click on the graphic to open the file, which you can then download).
+The Main Board schematic is linked below (click on the graphic to open the file, which you can then download, or work with the KiCad .sch file in your PCB program).
 
 <p width=100%, align="center">
 <img width=100%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Operation/Collateral/EUCLID%2B%20Main%20Board%20Schematic.svg">
 </p>
 
+Working around the schematic, reading left to right and down the page, we first meet:
+
+# CLOCK PROCESSING
+which accepts an externally applied clock signal from the Control Board. It is inverted by U1B, to produce the (positive-definite) signal _INPUT. It is also recitified to produce the (positive-definite) signal INPUT' and passed to an edge deterctor, to generate dPINPUT. The input signal also triggers a one-shot (U1A), the output of which is passed to another edge detector, which produces a signal dNINPUT, at the end of the one-shot's pulse.
+
+The POWER, BOARD INTERFACE and POWER DISTRIBUTION blocks are trivial.
+
+The **State Machine** has already been discusssed (above).
+
+# INTERNAL OSCILLATOR
+The VCO is a standard Shaner (a.k.a. "Synthmonger") 40106 oscillator, first published [here](https://electro-music.com/forum/topic-28799.html) back in 2008, which I have modified slightly to include the hard-sync (Q3, driven by enabling logic in U8 A&B). I ahve also d.c. coupled the oscilaltor to the subsequent comparator stages (U6 B&C) to avoid the long time constants associated with the low frequencies of operation, which would accompany a filtering approach. U6B generates the high duty cycle Osc signal, whilst U6C makes an approximately square signal for the MULT output. An edge detector generates a pulse on the rising edge of the Osc signal ('dOsc'), which is buffered by spare gates in the 40106 to ensure it is at adequate level to drive logic.
+
+# CLOCK DIVIDER A to D CONVERTER
+The clock divider requires a parallel digital input. This would have been easiest to generate with a PIC or similar device reading the voltage on a potentiometer, but I wanted to make this a 'hardware-only' project. Accordingly, a ladder-type ADC is used, based on op-amp comparators. Precedents for this type of design exist in two-bit form [here](https://sfcs.neocities.org/module/SFP37/) and - more importantly - in a four-bit version [here](https://modwiggler.com/forum/viewtopic.php?p=464251#p464251). The structure is easy to extrapolate to five bits, but performance becomes sensitive to (e.g.) resistor tolerances at this resolution - I wouldn't fancy pushing the method beyond 5 bits! Still, it is working well-enough for this application.
+
+# CLOCK DIVIDER
+My original prototype used a simple 4017 decade counter, which was inadequate to achieve the 12 and 16 count sequences which are of inteest among Euclidean Rhythms, forcing me to look to a different approach. 4017s are actually difficult to cascade in this type of application, so I used instead a 4024 7-stage counter, U11. I am using five of its stages to achieve the 5-bit count I require and detecting when I reach the end of the count using 4030 XOR gates, U9 & U10. the outputs of the XOR gates are ORed together by a 5 input OR gate formed by D14, D15, D16, D19 & D23 and Q5 and adjactent resistors. This OR gate resets the 4024 to 0 and sets the output flip-flops U5 A&B by clocking them when the count reaches the number set on the A to D converter. Note that this has to be the desired output period (L) + 1; in other words to get an output with period 8, you set "9" (0, 1, 0, 0, 1) on the divider display LEDs.
+
+Additionally, the system can be reset (e.g. to align the clock to an external reference beat on the clock, such as a "bar line") by the RESET signal.
 
 
 
