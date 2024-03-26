@@ -7,7 +7,7 @@ EUCLID+ divides the applied clock signal by any integer clock division (up to 30
 
 EUCLID+ includes an integral VCO, which can serve as a voltage controlled clock multiplier. Signals from the clock divider and clock multiplier are available for external use on the DIVIDE and MULT outputs. 
 
-EUCLID+ combines the clock input and the signal from the clock multiplier to provide gate patterns on the RHYTHM output. The complements of these patterns appear on the COMP output. The duty cycle of the PATTERN and COMP outputs follows that of the input Clock waveform.
+EUCLID+ combines the clock input and the signal from the clock multiplier to provide gate patterns on the RHYTHM output. The complements of these patterns appear on the COMP output. The duty cycle of the RHYTHM and COMP outputs follows that of the input Clock waveform.
 
 EUCLID+ can hard-sync its VCO to the clock divider output. In this condition, the output pattern is fixed, having the same period as the clock divider. The patterns in this synchronous mode include the familiar [Euclidean Rhythms](https://en.wikipedia.org/wiki/Euclidean_rhythm) (of length up to 30). Note that the complement of a Euclidean Rhythm is itself Euclidean; the COMP output produces musically useful triggers for primary voices in complementary and interlocking rhythmic structures as well as for producing "ghost notes".
 
