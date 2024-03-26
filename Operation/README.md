@@ -72,6 +72,45 @@ My original prototype used a simple 4017 decade counter, which was inadequate to
 
 Additionally, the system can be reset (e.g. to align the clock to an external reference beat on the clock, such as a "bar line") by the RESET signal.
 
+## Control Board
+
+The Control Board schematic is linked below (click on the graphic to open the file, which you can then download, or work with the KiCad .sch file in your PCB program).
+
+<p width=100%, align="center">
+<img width=100%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Operation/Collateral/EUCLID%2B%20Control%20Board%20Schematic.svg">
+</p>
+
+The Control Board hosts all User Interface controls, and all Inputs and Outputs. It also contains some signal conditioning circuitry to support the IO functions.
+
+Working L to R and top to bottom on the schematic:
+
+## SYNC / FREE Control
+
+Switching between synchronous and asynchronous mode is achieved by pressing the pushbutton SW1, which causes toggling action of the flip-flop formed by op-amp stage U1A.
+
+An external input exceeding approximately 1.5V applied to the Sync Input U$3 will drive the output of comparator stage U1B high.
+
+The outputs of U1A and U1B are ORed togther by D1, D2 & R11. If either output is high, the synchronous mode is enabled (ESYNC = 1) and D3 is illuminated.
+
+## DIVIDE Control
+The clock divider is set by a control voltage 'ADC_IN' which is the sum of a local voltage set on VR2 and the voltage input to the Divide input, U$1, applied to the attenuverted formed by U1C. C2 is critical to ensure sufficient noise rejection.
+
+## CLOCK INPUT
+A signal applied to the Clock input U$2 exceeding approx 1.5V will cause the output of comparator stage U2D ('CLOCK_IN') to go high.
+
+## VCO Control
+The internal oscillator frequency is set by the control voltage 'VCO_IN' formed of the sum of a local voltage set on VR4 and the voltage input to the Freq input, U$5, applied to the attenuverted formed by U2A. 
+
+## DIVIDE LENGTH DISPLAY
+The resistor network RN1 (in common with RN1 on the main board) is an 8-commoned package, of which only five resistors are used. I find these earier to source than other configurations. 
+You should chose the resistance to give appropriate brightness with your LEDs - remember that the resistors and the LEDs are dropping 24V in this case. 10k worked for me, but your LEDs may not be the same as mine.
+
+## OUTPUTS
+The output stages are all similar, common collector types. Again, choose the current limiting resistors R41, R42, R43, R51 & R52 to suit your diodes (this time dropping 11.5V).
+
+The COMP output stage is slightly different than the rest, as it incorporates a diode AND gate (D14, D15) to combine the _Q signal with the system clock.
+
+
 
 
 References
