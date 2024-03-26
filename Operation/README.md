@@ -46,7 +46,14 @@ EUCLID+ is realised using 4000 series logic and op-amps, on two Printed Circuit 
 
 ## Main Board
 
-The 
+The Main Board schematic is linked below (click on the graphic to open the file, which you can then download).
+
+<p width=100%, align="center">
+<img width=80%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Operation/Euclid%2B%20Main%20Board%20Schematic.pdf">
+</p>
+
+
+
 
 References
 
