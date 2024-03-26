@@ -19,6 +19,8 @@ Alternatively, the VCO inside EUCLID+ can run asynchronously to the applied cloc
 
 Switching between syncrhonous and asynchronous operation can be achieved manually, using the SYNC pushbutton, or by CV control via the Sync input.
 
+There is a fuller description of the principle behind EUCLID+ operation [here](https://github.com/m0xpd/EUCLIDplus/tree/main/Operation#readme) and detailed description of circuit operation here.
+
 Full design details for EUCLID+ including schematics, PCB layouts and a Front Panel design, are presented in the hardware folder.  
 
 EUCLID+ is published under [CC BY-SA 4.0 License](https://github.com/m0xpd/EUCLIDplus/blob/main/LICENSE.txt).
