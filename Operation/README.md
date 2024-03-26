@@ -36,7 +36,7 @@ However, EUCLID+ can also work with non-integer values of x by hard-syncing the 
 
 In practice, it is not possible to set the oscilator to an exact integer value of x, because of drift in the oscillator and - indeed - because there may be drift in the incoming clock. For this reason, the synchronous mode is used in all cases where a fixed, periodic output sequence is sought and the asychronous more is used when a free, evolving pattermn is required.
 
-Variations arising from the inherent drift of EUCLID+'s simple VCO are seen as a positive feature of this system; those seeking more 'metronomic' and regular Euclidean Rhythm sources are encouraged to use one of the existing software-based solutions on the market. These variations give EUCLID+ a human / 'organic' feel, which I believe is associated to that which is sought by those who prefer 'analog' to 'digital' methods in synthesis (although, of course, EUCLID+ is mainly a swithchig/logic/*digital* system).  
+Variations arising from the inherent drift of EUCLID+'s simple VCO are seen as a positive feature of this system; those seeking more 'metronomic' and regular Euclidean Rhythm sources are encouraged to use one of the existing software-based solutions on the market. These variations give EUCLID+ a human / 'organic' feel, which I believe is associated to that which is sought by those who prefer 'analog' to 'digital' methods in synthesis (although, of course, EUCLID+ is mainly a switching/*digital* system).  
 
 
 
