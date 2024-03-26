@@ -31,9 +31,9 @@ EUCLID+ is **16HP wide**.
 
 **Depth:**
 
-EUCLID+ extends **xx mm** behind the front panel when a conventional Eurorack power header **with strain relief** is inserted 
+EUCLID+ extends **43 mm** behind the front panel when a conventional Eurorack power header **with strain relief** is inserted 
 
-If your power header doesn't have a strain relief (which is probably more typical, judging by the power cables delivered with commercial modules) the depth is limited by xxx; in this situation EUCLID+ extends **xxmm** behind the front panel.
+If your power header doesn't have a strain relief (which is probably more typical, judging by the power cables delivered with commercial modules) the depth is limited by xxx; in this situation EUCLID+ extends **37mm** behind the front panel.
 
 **Power Consumption:**
 
