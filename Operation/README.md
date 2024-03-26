@@ -30,16 +30,23 @@ This is achieved by the additional logic (U8, gates D and C) ahead of the S-R fl
 
 This amounts to what I describe as 'conditional modulation', for want of a better phrase. Rather than simply forming the logical AND of the clock and the internal oscillator (equivalent to multipliying the signals), derivation of the FIRST signal and its use in the formation of the SET input to the second S-R fip flop imposes a conditionality upon the modulation, which gives the interesting rhythmic patterns we seek. 
 
-When x is not an integer, there are not a fixed number of periods of the 'Osc' signal in the repeat period (L times the clock period). This can make the resulting output change continually, which can give a useful result (particularly if x is close to an integer or is close to a ratio of small integers, like x ~ 3/2,  x ~ 7/5 etc). 
+When x is not an integer, there are not a fixed number of periods of the 'Osc' signal in the repeat period (L times the clock period). This will make the resulting output change every period, which can give a useful result (particularly if x is close to an integer or is close to a ratio of small integers, like x ~ 3/2,  x ~ 7/5 etc). 
 
-However, EUCLID+ can also work with non-integer values of x by hard-syncing the internal Oscillator to the output of its internal clock divider, which is provided for this purpose. The non-integer values can generate additional (non-Euclidean) patterns in synchronous mode, including some "dotted" effects.
+EUCLID+ is capable of hard-syncing the internal Oscillator to the output of its internal clock divider, which is provided for this purpose. This will force a periodic output, even with non-integer x. The  non-integer values generate additional (non-Euclidean) patterns in synchronous mode, including some "dotted" effects.
 
-In practice, it is not possible to set the oscilator to an exact integer value of x, because of drift in the oscillator and - indeed - because there may be drift in the incoming clock. For this reason, the synchronous mode is used in all cases where a fixed, periodic output sequence is sought and the asychronous more is used when a free, evolving pattermn is required.
+In practice, it is not possible to set the oscilator to an exact integer value of x, because of drift in EUCLID+'s oscillator and - indeed - because there may be drift in the incoming clock. For this reason, the synchronous mode is used in all cases where a fixed, periodic output sequence is sought and the asychronous mode is used when a free, evolving pattern is required.
 
-Variations arising from the inherent drift of EUCLID+'s simple VCO are seen as a positive feature of this system; those seeking more 'metronomic' and regular Euclidean Rhythm sources are encouraged to use one of the existing software-based solutions on the market. These variations give EUCLID+ a human / 'organic' feel, which I believe is associated to that which is sought by those who prefer 'analog' to 'digital' methods in synthesis (although, of course, EUCLID+ is mainly a switching/*digital* system).  
+Variations arising from the inherent drift of EUCLID+'s simple VCO are seen as a positive feature of the system; those seeking more 'metronomic' and regular Euclidean Rhythm sources are encouraged to use one of the existing software-based solutions on the market. These variations give EUCLID+ a human / 'organic' feel, which I believe is associated to that which is sought by those who prefer 'analog' to 'digital' methods in synthesis (although, of course, EUCLID+ is mainly a switching/*digital* system).  Those wishing to explore the method of Euclidean Rhythm generation without messing with hardware can look at the Python version described here.
 
+Having outlined the principle of operation, I'll now give a description of the main circuit blocks in the electronics.
 
+# Circuit Description
 
+EUCLID+ is realised using 4000 series logic and op-amps, on two Printed Circuit boards, the schematics of which are described separately below.
+
+## Main Board
+
+The 
 
 References
 
