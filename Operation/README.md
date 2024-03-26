@@ -17,7 +17,7 @@ the clock and internal oscillator together for the first pulse). HOWEVER, for su
 This is achieved by the additional logic (U8, gates D and C) ahead of the S-R flip flop (formed from gates A and B of U2&3). The entire state machine is shown below:
 
 <p width=100%, align="center">
-<img width=40%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Operation/Collateral/EUCLID%2B%20State%20Machine.png">
+<img width=60%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Operation/Collateral/EUCLID%2B%20State%20Machine.png">
 </p>
 
 
