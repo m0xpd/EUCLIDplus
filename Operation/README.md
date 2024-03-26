@@ -9,6 +9,14 @@ This led me to investigate the idea of setting a switching waveform of period L/
 If we could identify the FIRST of the clock pulses which occur in each of these sections, we shall have found the most even distribution of x pulses - 
 a Euclidean Rhythm of Length=L and Density=x.
 
+For example, the graphic below shows an idealised Clock signal and the internal oscilator signal, 'Osc', set to L = 8, x = 3
+
+<p width=100%, align="center">
+<img width=80%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Operation/Collateral/State%20Machine%20Operation%20Principle.png">
+</p>
+
+The first clock pulses associated with each pulse of the 'Osc' signal are identified in red - readers familiar with Euclidean Rhythms will recognise this as a valid ER(8,3).
+
 This is what EUCLID+ does - it takes the incomeing clock signal and turns it into a pulse train at the clock leading edge (using a one-shot/monostable around U1A) 
 and generates a high duty cycle signal, 'Osc', from the internal VCO. The first clock pulse in every period of the VCO signal is identified by the signal FIRST, which is held on a 
 S-R flip-flop (implemented on gates A and B of U2&3). When FIRST is true, the output is set when both the internal oscillator (Osc) and the clock are true (i.e. the system just ANDs 
