@@ -2,7 +2,7 @@
 
 This section contains a description of the principles behind EUCLID+ and a detailed description of the implementation of these principles in the module hardware.
 
-A [defining property[(https://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf) of Euclidean Rhythms (*E*'s) is the fact that an *E* of length L having N onsets is the most even distribution of the N onsets over L beats (1). 
+A [defining property[(https://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf) of Euclidean Rhythms (*E*'s) is the fact that an *E* of length L having N onsets is the most even distribution of the N onsets over L beats. 
 This led me to investigate the idea of setting a switching waveform of period L/x against the period, L, where x is continuously variable. When x is a simple positive integer 
 (1, 2, 3, ...) this just gives a exact number of periods of the internal oscillator for every period, L, and will identify the perfect division of L into x sections.
 
@@ -110,9 +110,3 @@ The output stages are all similar, common collector types. Again, choose the cur
 
 The COMP output stage is slightly different than the rest, as it incorporates a diode AND gate (D14, D15) to combine the _Q signal with the system clock.
 
-
-
-
-References
-
-(1) 
