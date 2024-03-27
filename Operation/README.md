@@ -55,7 +55,7 @@ The Main Board schematic is linked below (click on the graphic to open the file,
 Working around the schematic, reading left to right and down the page, we first meet:
 
 ## CLOCK PROCESSING
-which accepts an externally applied clock signal from the Control Board. It is inverted by U1B, to produce the (positive-definite) signal _INPUT. It is also recitified to produce the (positive-definite) signal INPUT' and passed to an edge deterctor, to generate dPINPUT. The input signal also triggers a one-shot (U1A), the output of which is passed to another edge detector, which produces a signal dNINPUT, at the end of the one-shot's pulse.
+which accepts an externally applied clock signal from the [Control Board](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Control%20Board#readme). It is inverted by U1B, to produce the (positive-definite) signal _INPUT. It is also recitified to produce the (positive-definite) signal INPUT' and passed to an edge deterctor, to generate dPINPUT. The input signal also triggers a one-shot (U1A), the output of which is passed to another edge detector, which produces a signal dNINPUT, at the end of the one-shot's pulse.
 
 The POWER, BOARD INTERFACE and POWER DISTRIBUTION blocks are trivial.
 
