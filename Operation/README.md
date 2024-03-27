@@ -16,7 +16,7 @@ For example, the graphic below shows an idealised Clock signal and the internal 
 <img width=80%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Operation/Collateral/State%20Machine%20Operation%20Principle.png">
 </p>
 
-The first clock pulse within each period of the 'Osc' signal is identified in red - readers familiar with Euclidean Rhythms will recognise the result as a valid *E*(3,8).
+The first clock pulse within each period of the 'Osc' signal is identified in red - readers familiar with Euclidean Rhythms will recognise the result as a valid *E*(3,8) - in fact, it is the famous Cuban *tresillo* rhythm.
 
 This is what EUCLID+ does - it takes the incoming clock signal and turns it into a pulse train at the clock leading edge (using a one-shot/monostable around U1A) 
 and generates a high duty cycle signal, 'Osc', from the internal VCO. The first clock pulse in every period of the VCO signal is identified by the signal FIRST, which is held on a 
