@@ -2,7 +2,7 @@
 This folder contains details of the EUCLID+ Control Board.
 
 <p width=100%, align="center">
-<img width=40%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/Control%20Board.jpg">
+<img width=60%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/Control%20Board.jpg">
 </p>
 
 There is a KiCad Project File (.pro), a Schematic File (.sch) and a PCB file (.pcb).
