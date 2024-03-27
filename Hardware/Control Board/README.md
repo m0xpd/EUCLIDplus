@@ -1,6 +1,10 @@
 # Control Board
 This folder contains details of the EUCLID+ Control Board.
 
+<p width=100%, align="center">
+<img width=40%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/Front%20Panel.jpg">
+</p>
+
 There is a KiCad Project File (.pro), a Schematic File (.sch) and a PCB file (.pcb).
 
 There is also a [BoM](https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Control%20Board/Euclid%2B%20Control%20Board%20BoM.xlsx), which is an Excel file; you will have to download the raw file and view it outside github.
