@@ -9,7 +9,7 @@ EUCLID+ builds gate patterns, including [Euclidean Rhythms.](https://en.wikipedi
 
 If you're looking for a module where you just dial in parameters and out pops a Euclidean Rhythm, this isn't for you. However, if you're interested in working with a creative platform on which you can explore possibilities in rhythm generation - and be open to the surprises which pop out along the way - EUCLID+ might be for you.
 
-EUCLID+ divides the applied clock signal by any integer clock division (up to 30 counts) making EUCLID+ useful as a voltage-controlled hardware clock divider. The start of the clock divide cycle can be reset manually, using the RESET pushbutton, or by CV control via the Reset input.
+EUCLID+ divides an applied clock signal by any integer clock division (up to 30 counts) making EUCLID+ useful as a voltage-controlled hardware clock divider. The start of the clock divide cycle can be reset manually, using the RESET pushbutton, or by CV control via the Reset input.
 
 EUCLID+ includes an integral VCO, which can serve as a voltage controlled clock multiplier. Signals from the clock divider and clock multiplier are available for external use on the DIVIDE and MULT outputs. 
 
