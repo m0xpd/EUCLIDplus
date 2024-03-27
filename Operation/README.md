@@ -36,7 +36,7 @@ EUCLID+ is capable of hard-syncing the internal Oscillator to the output of its 
 
 In practice, it is not possible to set the oscilator to an exact integer value of x, because of drift in EUCLID+'s oscillator and - indeed - because there may be drift in the incoming clock. For this reason, the synchronous mode is used in all cases where a fixed, periodic output sequence is sought and the asychronous mode is used when a free, evolving pattern is required.
 
-Variations arising from the inherent drift of EUCLID+'s simple VCO are seen as a positive feature of the system; those seeking more 'metronomic' and regular Euclidean Rhythm sources are encouraged to use one of the existing software-based solutions on the market. These variations give EUCLID+ a human / 'organic' feel, which I believe is associated to that which is sought by those who prefer 'analog' to 'digital' methods in synthesis (although, of course, EUCLID+ is mainly a switching/*digital* system).  Those wishing to explore the method of Euclidean Rhythm generation without messing with hardware can look at the Python version described here.
+Variations arising from the inherent drift of EUCLID+'s simple VCO are seen as a positive feature of the system; those seeking more 'metronomic' and regular Euclidean Rhythm sources are encouraged to use one of the existing software-based solutions on the market. These variations give EUCLID+ a human / 'organic' feel, which I believe is associated to that which is sought by those who prefer 'analog' to 'digital' methods in synthesis (although, of course, EUCLID+ is mainly a switching/*digital* system).  
 
 Having outlined the principle of operation, I'll now give a description of the main circuit blocks in the electronics.
 
