@@ -3,4 +3,6 @@ This folder contains details of the EUCLID+ Control Board.
 
 There is a KiCad Project File (.pro), a Schematic File (.sch) and a PCB file (.pcb).
 
+There is also a [BoM](https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Control%20Board/Euclid%2B%20Control%20Board%20BoM.xlsx), which is an Excel file; you will have to download the file and view it outside github.
+
 A version of the schematic in graphical (svg) format is available in the [Operation](https://github.com/m0xpd/EUCLIDplus/tree/main/Operation#readme) folder
