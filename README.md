@@ -21,7 +21,7 @@ Switching between syncrhonous and asynchronous operation can be achieved manuall
 
 There is a fuller description of the principles behind EUCLID+ operation [here](https://github.com/m0xpd/EUCLIDplus/tree/main/Operation#readme) and a detailed description of circuit operation [here](https://github.com/m0xpd/EUCLIDplus/tree/main/Operation#circuit-description).
 
-Full design details for EUCLID+ including schematics, PCB layouts and a Front Panel design, are presented in the hardware folder.  
+Full design details for EUCLID+ including schematics, PCB layouts for the [Main Board](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Main%20Board#readme) and [Control Board](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Control%20Board#readme) and a [Front Panel](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Front%20Panel#readme) design, are presented in the hardware folder.  
 
 EUCLID+ is published under [CC BY-SA 4.0 License](https://github.com/m0xpd/EUCLIDplus/blob/main/LICENSE.txt).
 
