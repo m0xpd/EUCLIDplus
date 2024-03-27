@@ -8,7 +8,7 @@ This led me to investigate the idea of setting a switching waveform of period L/
 (1, 2, 3, ...) this just gives a exact number of periods of the internal oscillator for every period, L, and will identify the perfect division of L into x sections.
 
 If we could identify the FIRST of the clock pulses which occur in each of these sections, we shall have found the most even distribution of x pulses - 
-a Euclidean Rhythm of Length=L and Density=x, *E*(x,L).
+a Euclidean Rhythm of Length = L and Number of Onsets or 'Density' = x, *E*(x,L).
 
 For example, the graphic below shows an idealised Clock signal and the internal oscilator signal, 'Osc', set to L = 8, x = 3
 
