@@ -2,12 +2,12 @@
 
 This section contains a description of the principles behind EUCLID+ and a detailed description of the implementation of these principles in the module hardware.
 
-A defining property of Euclidean Rhythms (ERs) is the fact that an ER of length L having N onsets is the most even distribution of the N onsets over L beats (1). 
+A [defining property[(https://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf) of Euclidean Rhythms (*E*'s) is the fact that an *E* of length L having N onsets is the most even distribution of the N onsets over L beats (1). 
 This led me to investigate the idea of setting a switching waveform of period L/x against the period, L, where x is continuously variable. When x is a simple positive integer 
-(1, 2, 3, ...) this just gives a number of periods of the internal oscillator for every period, L, and will identify the division of L into x sections.
+(1, 2, 3, ...) this just gives a exact number of periods of the internal oscillator for every period, L, and will identify the perfect division of L into x sections.
 
 If we could identify the FIRST of the clock pulses which occur in each of these sections, we shall have found the most even distribution of x pulses - 
-a Euclidean Rhythm of Length=L and Density=x.
+a Euclidean Rhythm of Length=L and Density=x, *E*(x,L).
 
 For example, the graphic below shows an idealised Clock signal and the internal oscilator signal, 'Osc', set to L = 8, x = 3
 
@@ -15,7 +15,7 @@ For example, the graphic below shows an idealised Clock signal and the internal 
 <img width=80%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Operation/Collateral/State%20Machine%20Operation%20Principle.png">
 </p>
 
-The first clock pulse within each period of the 'Osc' signal is identified in red - readers familiar with Euclidean Rhythms will recognise the result as a valid ER(8,3).
+The first clock pulse within each period of the 'Osc' signal is identified in red - readers familiar with Euclidean Rhythms will recognise the result as a valid *E*(3,8).
 
 This is what EUCLID+ does - it takes the incoming clock signal and turns it into a pulse train at the clock leading edge (using a one-shot/monostable around U1A) 
 and generates a high duty cycle signal, 'Osc', from the internal VCO. The first clock pulse in every period of the VCO signal is identified by the signal FIRST, which is held on a 
