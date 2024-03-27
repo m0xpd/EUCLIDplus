@@ -1,3 +1,4 @@
+# Hardware
 This folder contains details of the hardware of the Euclid+ Rhythm Generator.
 
 There is a Front Panel, Defined by a KiCad project, and two PCBs - the Main Board and the Control Board.
