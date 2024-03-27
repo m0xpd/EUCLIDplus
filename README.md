@@ -47,5 +47,5 @@ If your power header doesn't have a strain relief (which is probably more typica
 | -12V | **15mA** |
 | 5V | **0** |
 
-The 12V current drain was fluctuating during operation (with switching behaviour); the 30mA figure quoted above is an eyeball estimate of average current - the peak was 35mA.
-The -12V current drain was steady; the 15mA is average drain.
+The 12V current drain above was fluctuating during measurement (with the module's switching behaviour); the 30mA figure quoted above is an 'eyeball estimate' of average current - the peak was 35mA.
+The -12V current drain was steady; the 15mA is the average consumption.
