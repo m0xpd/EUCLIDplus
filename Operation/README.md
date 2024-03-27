@@ -1,6 +1,6 @@
 # EUCLID+ Operation
 
-This section contains a description of the principles behind EUCLID+ and a detailed description of the implementation of these principles in the module hardware.
+This section contains a description of the principles behind EUCLID+ and a detailed description of the implementation of these principles in the EUCLID+ module's electronic circuits.
 
 A [defining property](https://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf) of Euclidean Rhythms (*E*'s) is the fact that an *E* of length L having N onsets is the most even distribution of the N onsets over L beats. 
 This led me to investigate the idea of setting a switching waveform of period L/x against the period, L, where x is continuously variable. When x is a simple positive integer 
