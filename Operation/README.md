@@ -54,8 +54,6 @@ The image below shows EUCLID+ generating a rotation of  E(5,16) (= [x..x..x..x..
 </p>
 It is seen that (with reference to the DIVIDE output) COMP = [...x..x..x..x..x]. It is seen that this signal is E(5,16) rotated LEFT by one 'place'.
 
-
-
 When EUCLID+ is operated in synchronous mode, The hard-sync will force a periodic output, even when there is a non-integer number of periods of the internal oscillator in the clock divide length, x. The  non-integer values generate additional (non-Euclidean) patterns in synchronous mode, including some interesting "dotted" effects.
 
 In practice, it is not possible to set the oscilator to an exact integer value of x, because of drift in EUCLID+'s oscillator and - indeed - because there may be drift in the incoming clock. For this reason, the synchronous mode is used in all cases where a fixed, periodic output sequence is sought and the asychronous mode is used when a free, evolving pattern is required.
