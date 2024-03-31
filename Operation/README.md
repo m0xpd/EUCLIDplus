@@ -37,7 +37,7 @@ EUCLID+ is capable of hard-syncing the internal Oscillator to the output of its 
 
 ## Performance Examples
 
-The instance of the Euclidean Rhythm E(3,8) (= [x..x..x.]) seen on the Front Page is actually rather rare. EUCLID+ more usually produces a pattern such as that seen below, 
+The instance of the Euclidean Rhythm E(3,8) (= [x..x..x.]) reported on the [Front Page](https://github.com/m0xpd/EUCLIDplus/tree/main#) is actually rather rare. It was perfectly stable when I captured the screenshot, but it is difficult to reproduce. EUCLID+ more usually produces a pattern such as that seen below: 
 <p width=100%, align="center">
 <img width=50%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/Rotation%20of%20E38.png">
 </p>
