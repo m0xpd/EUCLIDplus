@@ -44,9 +44,9 @@ The instance of the Euclidean Rhythm E(3,8) (= [x..x..x.]) reported on the [Fron
 
 It can be seen (with reference to the DIVIDE pulse, seen in the top Magenta trace) that the PATTERN signal is  = [x.x..x..]. This sequence is E(3,8) rotated RIGHT by two 'places'. This rotation makes the signal in the image above an instance of the same "rhythm necklace" as E(3,8); it is the same rhythm, only displaced in start point / time reference.
 
-The 'pure' version of E(3,8) is - perhaps - unusual because it is only a conditionally stable behaviour, suggested by the 'glitches' seen in the COMP (yellow) output in the image on the Front Page. 
+The 'pure' version of E(3,8) is - perhaps - unusual because it is only a conditionally stable behaviour, suggested by the 'glitch' seen in the COMP (yellow) output coincident with the DIVIDE pulse in the image on the Front Page. 
 
-Following are some more 'scope traces of EUCLID+ performance in synchronous mode, producing Euclidean Rhythms (or rotations thereof).
+Following are some more 'scope traces of EUCLID+ performance in synchronous mode, producing Euclidean Rhythms (or - more correctly - rotations thereof).
 
 The image below shows a rotation of E(3,7) (= [x.x.x..]).
 <p width=100%, align="center">
