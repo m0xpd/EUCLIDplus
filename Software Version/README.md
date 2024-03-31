@@ -6,8 +6,16 @@ There is a basic coding of the EUCLID+ method in [MicroPython](https://micropyth
 
 I have also sketched a partial KiCad project showing how the code could be supported by hardware which could easily be elaborated into a module. 
 
-The code and hardware were validated at breadboard level in a simple system, shown below:
+The code and hardware were validated at breadboard level on a simple system, shown below:
 
 <p width=100%, align="center">
-<img width=40%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Software%20Version/Platform/EUCLID%2B%20Pi%20Prototype.png">
+<img width=60%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Software%20Version/Platform/EUCLID%2B%20Pi%20Prototype.png">
+</p>
+
+The example system and its circuitry included only manual controls (for clock division, internal oscillator frequency, etc) with no provision for Voltage Control. These could readily be included using standard methods. 
+
+The pin allocation for the RPi is shown below:
+
+<p width=100%, align="center">
+<img width=60%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Software%20Version/Platform/EUCLID%2B%20Pi%20Prototype.png">
 </p>
