@@ -4,7 +4,7 @@ This folder describes a software implementation of the principles behind EUCLID+
 
 There is a basic coding of the EUCLID+ method in Python [here](https://github.com/m0xpd/EUCLIDplus/blob/main/Software%20Version/EuclidPlus.py), intended to run on the [Raspberry Pi PICO](https://www.raspberrypi.com/products/raspberry-pi-pico/). It could easily be ported to other RPi-based platforms, such as [EuroPi](https://allensynthesis.co.uk/modules/europi.html). 
 
-The code certainly isn't pretty - I hacked it from a Ratcheting clock multiplier application I had been working on, so many of the variable names and the overall structure didn't start with a blank canvas, which would have been better practice. However, it does the job.
+The code certainly isn't pretty - I hacked it from a Ratcheting clock multiplier application I had been working on, so many of the variable names and the overall structure didn't start on a blank canvas, which would have been better practice. However, it does the job.
 
 I have also sketched a partial KiCad project showing how the code could be supported by hardware which could easily be elaborated into a module. Most importantly, there's a [.sch file](https://github.com/m0xpd/EUCLIDplus/blob/main/Software%20Version/Platform/EuclidPlusPi.kicad_sch) and a (graphical) schematic...
 
