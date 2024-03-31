@@ -53,29 +53,29 @@ The image below shows a rotation of E(3,7) (= [x.x.x..]).
 <img width=50%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/E37.png">
 </p>
 
-It is seen that (with reference to the DIVIDE output) COMP = [x.x..x.]. It is seen that this signal is E(3,7) rotated LEFT by two 'places'. 
+It is seen that (with reference to the DIVIDE output) PATTERN = [x.x..x.]. It is seen that this signal is E(3,7) rotated LEFT by two 'places'. 
 
 The image below shows EUCLID+ generating a rotation of  E(5,12) (= [x..x.x..x.x.]).
 <p width=100%, align="center">
 <img width=50%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/E512.png">
 </p>
-It is seen that (with reference to the DIVIDE output) COMP = [..x.x..x.x.x]. It is seen that this signal is E(5,12) rotated LEFT by one 'place'. 
+It is seen that (with reference to the DIVIDE output) PATTERN = [..x.x..x.x.x]. It is seen that this signal is E(5,12) rotated LEFT by one 'place'. 
 
 The image below shows EUCLID+ generating a rotation of  E(5,16) (= [x..x..x..x..x....]).
 <p width=100%, align="center">
 <img width=50%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/E516.png">
 </p>
-It is seen that (with reference to the DIVIDE output) COMP = [...x..x..x..x..x]. It is seen that this signal is E(5,16) rotated LEFT by one 'place'.
+It is seen that (with reference to the DIVIDE output) PATTERN = [...x..x..x..x..x]. It is seen that this signal is E(5,16) rotated LEFT by one 'place'.
 
 ## Synchronous Mode and Drift
 
 When EUCLID+ is operated in synchronous mode, The hard-sync will force a periodic output, even when there is a non-integer number of periods of the internal oscillator in the clock divide length, x. The  non-integer values generate additional (non-Euclidean) patterns in synchronous mode, including some interesting "dotted" effects.
 
-In practice, it is not possible to set the oscilator to an exact integer value of x, because of drift in EUCLID+'s oscillator and - indeed - because there may be drift in the incoming clock. For this reason, the synchronous mode is used in all cases where a fixed, periodic output sequence is sought and the asychronous mode is used when a free, evolving pattern is required.
+In practice, it is not possible to set the oscilator to an exact integer value of x, because of drift in EUCLID+'s oscillator and - indeed - because there may be drift in the incoming clock. For this reason, the synchronous mode is used in all cases where a fixed, periodic output sequence is sought and the asychronous mode is used when a free, evolving pattern is required. Even when the system is set to synchronous mode, the internal oscillator can still drift sufficiently to cause chqange in the output pattern, although this change should be negligible if the system is operating corectly. The system is never immune to changes in the incoming clock due to (e.g.) jitter. 
 
-Variations arising from the inherent drift of EUCLID+'s simple VCO are seen as a positive feature of the system; those seeking more 'metronomic' and regular Euclidean Rhythm sources are encouraged to use one of the existing software-based solutions on the market. These variations give EUCLID+ a human / 'organic' feel, which I believe is associated to that which is sought by those who prefer 'analog' to 'digital' methods in synthesis (although, of course, EUCLID+ is mainly a switching/*digital* system).  
+Variations arising from the inherent drift of EUCLID+'s simple VCO are seen as a positive feature of the system; those seeking more 'metronomic' and regular Euclidean Rhythm sources are encouraged to use one of the existing software-based solutions on the market. These variations give EUCLID+ a human / 'organic' feel, which I believe is associated to that which is sought by those who prefer 'analog' to 'digital' methods in synthesis (although, of course, EUCLID+ is mainly a switching/*digital* system).  A [software implementation of the EUCLID+ concept](https://github.com/m0xpd/EUCLIDplus/tree/main/Software%20Version#readme) avoids some of the issues inherent in the hardware approach.
 
-Having outlined the principle of operation, I'll now give a description of the main circuit blocks in the electronics.
+Having disclosed the principle of operation, there now follows a description of the main circuit blocks in the electronics.
 
 # Circuit Description
 
