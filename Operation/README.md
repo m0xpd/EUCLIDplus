@@ -42,10 +42,17 @@ The image below shows a rotation of E(3,7) (= [x.x.x..]).
 
 It is seen that (with reference to the DIVIDE output) COMP = [x.x..x.]. It is seen that this signal is E(3,7) rotated LEFT by two 'places'. This rotation makes the signal in the image above an instance of the same "rhythm necklace" as E(3,7); it is the same rhythm, only displaced in start point / time reference.
 
-The image below shows a rotation of E(5,12) (= [x..x.x..x.x.]).
+The image below shows EUCLID+ generating a rotation of  E(5,12) (= [x..x.x..x.x.]).
 <p width=100%, align="center">
 <img width=50%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/E512.png">
 </p>
+It is seen that (with reference to the DIVIDE output) COMP = [..x.x..x.x.x]. It is seen that this signal is E(3,7) rotated LEFT by one 'place'. 
+
+The image below shows EUCLID+ generating a rotation of  E(5,16) (= [x..x..x..x..x....]).
+<p width=100%, align="center">
+<img width=50%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/E516.png">
+</p>
+It is seen that (with reference to the DIVIDE output) COMP = [...x..x..x..x..x]. It is seen that this signal is E(3,7) rotated LEFT by one 'place'. 
 
 The hard-sync will force a periodic output, even when there is a non-integer number of periods of the internal oscillator in the clock divide length, x. The  non-integer values generate additional (non-Euclidean) patterns in synchronous mode, including some interesting "dotted" effects.
 
