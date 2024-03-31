@@ -37,14 +37,23 @@ EUCLID+ is capable of hard-syncing the internal Oscillator to the output of its 
 
 ## Performance Examples
 
-Here are some more 'scope traces of EUCLID+ performance in synchronous mode, producing Euclidean Rhythms (or rotations thereof).
+The instance of the Euclidean Rhythm E(3,8) (= [x..x..x.]) seen on the Front Page is actually rather rare. EUCLID+ more usually produces a pattern such as that seen below, 
+<p width=100%, align="center">
+<img width=50%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/Rotation%20of%20E38.png">
+</p>
+
+It can be seen that (with reference to the DIVIDE pulse, seen in the top Magenta trace) that the PATTERN signal is  = [x.x..x..]. It is seen that this signal is E(3,8) rotated RIGHT by two 'places'. This rotation makes the signal in the image above an instance of the same "rhythm necklace" as E(3,8); it is the same rhythm, only displaced in start point / time reference.
+
+The 'pure' version of E(3,8) is - perhaps - unusual because it is only a conditionally stable behaviour, suggested by the 'glitches' seen in the COMP (yellow) output.
+
+Following are some more 'scope traces of EUCLID+ performance in synchronous mode, producing Euclidean Rhythms (or rotations thereof).
 
 The image below shows a rotation of E(3,7) (= [x.x.x..]).
 <p width=100%, align="center">
 <img width=50%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/E37.png">
 </p>
 
-It is seen that (with reference to the DIVIDE output) COMP = [x.x..x.]. It is seen that this signal is E(3,7) rotated LEFT by two 'places'. This rotation makes the signal in the image above an instance of the same "rhythm necklace" as E(3,7); it is the same rhythm, only displaced in start point / time reference.
+It is seen that (with reference to the DIVIDE output) COMP = [x.x..x.]. It is seen that this signal is E(3,7) rotated LEFT by two 'places'. 
 
 The image below shows EUCLID+ generating a rotation of  E(5,12) (= [x..x.x..x.x.]).
 <p width=100%, align="center">
