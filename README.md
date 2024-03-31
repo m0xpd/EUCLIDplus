@@ -27,7 +27,7 @@ EUCLID+ can hard-sync its VCO to the clock divider output. In this condition, th
 
 Alternatively, the VCO inside EUCLID+ can run asynchronously to the applied clock, giving the resulting pattern outputs a useful varying quality, but one which retains much of the structure (/correlation/'feel') of the behaviour in synchronous mode. Careful tuning of the VCO in asynchronous mode can exploit this variation to impart slow, organic change into what can otherwise be a dry, sterile, mechanistic process.
 
-Switching between syncrhonous and asynchronous operation can be achieved manually, using the SYNC pushbutton, or under CV control via the Sync input.
+Switching between synchronous and asynchronous operation can be achieved manually, using the SYNC pushbutton, or under CV control via the Sync input.
 
 There is a fuller description of the principles behind EUCLID+ operation [here](https://github.com/m0xpd/EUCLIDplus/tree/main/Operation#readme) and a detailed description of circuit operation [here](https://github.com/m0xpd/EUCLIDplus/tree/main/Operation#circuit-description).
 
