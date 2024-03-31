@@ -6,6 +6,9 @@ There is a basic coding of the EUCLID+ method in [MicroPython](https://micropyth
 
 I have also sketched a partial KiCad project showing how the code could be supported by hardware which could easily be elaborated into a module. Most importantly, there's a .sch file and a schematic...
 
+<p width=100%, align="center">
+<img width=60%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Software%20Version/Platform/EuclidPlusPi%20Schematic.svg">
+</p>
 
 The code and hardware were validated at breadboard level on a simple system, shown below:
 
