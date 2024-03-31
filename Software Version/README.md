@@ -8,3 +8,6 @@ I have also sketched a partial KiCad project showing how the code could be suppo
 
 The code and hardware were validated at breadboard level in a simple system, shown below:
 
+<p width=100%, align="center">
+<img width=40%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/Euclid%20Front.jpg">
+</p>
