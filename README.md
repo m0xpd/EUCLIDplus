@@ -35,7 +35,7 @@ For those who are discouraged by the complexity of the hardware approach - or th
 
 # License
 
-EUCLID+ (including the descriptions of its operating principles, and the analog and digital embodiments described in this repository) is published under [CC BY-SA 4.0 License](https://github.com/m0xpd/EUCLIDplus/blob/main/LICENSE.txt).
+EUCLID+ (including the descriptions of its operating principles, and the hardware and software embodiments described in this repository) is published under [CC BY-SA 4.0 License](https://github.com/m0xpd/EUCLIDplus/blob/main/LICENSE.txt).
 
 # Specifications
 
