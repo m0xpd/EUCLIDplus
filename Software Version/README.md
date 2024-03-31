@@ -16,7 +16,7 @@ The code and hardware were validated at breadboard level on a simple system, sho
 <img width=60%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Software%20Version/Platform/EUCLID%2B%20Pi%20Prototype.png">
 </p>
 
-The example system and its circuitry included only manual controls (for clock division, internal oscillator frequency, etc) with no provision for Voltage Control. These could readily be included using standard methods. 
+The example system and its circuitry include only manual controls (for clock division, internal oscillator frequency, etc) with no provision for Voltage Control. CV inputs could readily be included using standard methods, such as those used in the EUCLID+ module, appropriately adapted for the (0:3V3) operating range of the RPi.
 
 The pin allocation for the RPi is shown below:
 
