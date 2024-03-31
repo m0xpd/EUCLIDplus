@@ -9,5 +9,5 @@ I have also sketched a partial KiCad project showing how the code could be suppo
 The code and hardware were validated at breadboard level in a simple system, shown below:
 
 <p width=100%, align="center">
-<img width=40%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/Euclid%20Front.jpg">
+<img width=40%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Software%20Version/Platform/EUCLID%2B%20Pi%20Prototype.png">
 </p>
