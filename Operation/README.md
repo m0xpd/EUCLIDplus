@@ -33,7 +33,13 @@ This amounts to what I describe as 'conditional modulation', for want of a bette
 
 When x is not an integer, there are not a fixed number of periods of the 'Osc' signal in the repeat period (L times the clock period). This will make the resulting output change every period, which can give a useful result (particularly if x is close to an integer or is close to a ratio of small integers, like x ~ 3/2,  x ~ 7/5 etc). 
 
-EUCLID+ is capable of hard-syncing the internal Oscillator to the output of its internal clock divider, which is provided for this purpose. This will force a periodic output, even with non-integer x. The  non-integer values generate additional (non-Euclidean) patterns in synchronous mode, including some "dotted" effects.
+EUCLID+ is capable of hard-syncing the internal Oscillator to the output of its internal clock divider, which is provided for this purpose. Here are some more 'scope traces of EUCLID+ performance in synchronous mode, producing Euclidean Rhythms (or rotations thereof).
+
+<p width=100%, align="center">
+<img width=80%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/E37.png">
+</p>
+
+This hard-syn will force a periodic output, even with non-integer x. The  non-integer values generate additional (non-Euclidean) patterns in synchronous mode, including some "dotted" effects.
 
 In practice, it is not possible to set the oscilator to an exact integer value of x, because of drift in EUCLID+'s oscillator and - indeed - because there may be drift in the incoming clock. For this reason, the synchronous mode is used in all cases where a fixed, periodic output sequence is sought and the asychronous mode is used when a free, evolving pattern is required.
 
