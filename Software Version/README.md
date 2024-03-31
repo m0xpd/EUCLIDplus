@@ -17,5 +17,5 @@ The example system and its circuitry included only manual controls (for clock di
 The pin allocation for the RPi is shown below:
 
 <p width=100%, align="center">
-<img width=60%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Software%20Version/Platform/EUCLID%2B%20Pi%20Prototype.png">
+<img width=60%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Software%20Version/Platform/EUCLID%2B%20Pi%20Pin%20Allocation.png">
 </p>
