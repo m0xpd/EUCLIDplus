@@ -9,7 +9,7 @@ EUCLID+ builds gate patterns, including [Euclidean Rhythms.](https://en.wikipedi
 
 Strictly speaking, EUCLID+ *usually* produces a *rotation* of a Euclidean Rhythm (which is an instance of the same '[rhythm necklace](https://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf)' as the Euclidean Rhythm). EUCLID+ *occasionally* produces a Euclidean Rhythm.
 
-If you're looking for a module where you just dial in parameters and out pops a Euclidean Rhythm, this isn't for you. However, if you're interested in working with a creative platform on which you can explore possibilities in rhythm generation, and are open to the surprises which pop out along the way, EUCLID+ might be of interest. 
+If you're looking for a module where you just dial in parameters and out pops a Euclidean Rhythm, this isn't for you. However, if you're interested in working with a creative platform on which you can explore possibilities in rhythm generation, and are open to the surprises which you meet along the way, EUCLID+ might be of interest. 
 
 Here's a 'scope trace of EUCLID+ producing the [tresillo](https://en.wikipedia.org/wiki/Tresillo_(rhythm)) (or habanero) rhythm, which is Euclidean Rhythm "*E*(3,8)" (= [10010010] or, as more frequently represented in the notation used in musicology, [x..x..x.]).
 
