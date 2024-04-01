@@ -21,7 +21,7 @@ There are more examples of EUCLID+ performance [here](https://github.com/m0xpd/E
 
 EUCLID+ divides an applied clock signal by any integer divisor up to 30, making EUCLID+ useful as a voltage-controlled hardware clock divider. The start of the clock divide cycle can be reset manually, using the RESET pushbutton, or under CV control via the Reset input.
 
-EUCLID+ includes an integral VCO, which can serve as a voltage controlled clock multiplier. Signals from the clock divider and clock multiplier are available for external use on the DIVIDE and MULT outputs. 
+EUCLID+ includes an integral VCO, operating in the LFO range, which can serve as a voltage controlled clock multiplier. Signals from the clock divider and clock multiplier are available for external use on the DIVIDE and MULT outputs. 
 
 EUCLID+ combines the clock input and the signal from the clock multiplier to provide gate patterns on the RHYTHM output. The complements of these patterns appear on the COMP output. The duty cycle of the RHYTHM and COMP outputs follows that of the input Clock waveform.
 
