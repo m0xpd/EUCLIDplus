@@ -9,7 +9,7 @@ This folder contains details of the EUCLID+ Main Board.
 
 Here's the populated (v1) Main Board, seen from the component side:
 <p width=100%, align="center">
-<img width=60%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/Populated%20Main%20Board.png">
+<img width=40%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/Populated%20Main%20Board.png">
 </p>
 
 The folder contains a KiCad [Project File (.pro)](https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Main%20Board/Euclid%2B%20Main%20Board.kicad_pro), a [Schematic File (.sch)](https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Main%20Board/Euclid%2B%20Main%20Board.kicad_sch) and a [PCB file (.pcb)](https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Main%20Board/Euclid%2B%20Main%20Board.kicad_pcb).
