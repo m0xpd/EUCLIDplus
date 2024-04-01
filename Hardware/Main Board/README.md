@@ -11,6 +11,4 @@ There is a KiCad Project File (.pro), a Schematic File (.sch) and a PCB file (.p
 
 There is also a [BoM](https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Main%20Board/Euclid%2B%20Main%20Board%20BoM.xlsx) which is an Excel file; you will have to download the raw file and view it outside github. 
 
-KiCad's native [.csv format BoM](https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Main%20Board/Euclid%2B%20Main%20Board.csv) is also available, but it's of limited value.
-
 A version of the schematic in graphical (svg) format is available in the [Operation](https://github.com/m0xpd/EUCLIDplus/tree/main/Operation#readme) folder
