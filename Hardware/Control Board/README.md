@@ -13,7 +13,7 @@ The populated (v1) Control Board is seen (from the top/component side) in the ph
 <img width=40%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/Populated%20Control%20Board.png">
 </p>
 
-Also visible in the photo abobe are the two 1*18 0.1 inch headers which join the Main and Control boards electrically. These are female headers on the top of the Control Board (above), which mate with corresponding male headers on the bottom of the Main Board. These headers also provide sufficient mechanical mounting of the two boards for 'static' applications, but there are provided two 3mm holes to make a more robust assembly, if required.
+Also visible in the image above are the two 1*18 0.1 inch headers which join the Main and Control boards electrically. These are female headers on the top of the Control Board (above), which mate with corresponding male headers on the bottom of the Main Board. These headers also provide sufficient mechanical mounting of the two boards for 'static' applications, but there are provided two 3mm holes to make a more robust assembly, if required.
 
 This folder contains a KiCad [Project File (.pro)](https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Control%20Board/Euclid%2B%20Control%20Board.kicad_pro), a [Schematic File (.sch)](https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Control%20Board/Euclid%2B%20Control%20Board.kicad_sch) and a [PCB file (.pcb)](https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Control%20Board/Euclid%2B%20Control%20Board.kicad_pcb).
 
