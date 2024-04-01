@@ -25,3 +25,5 @@ The pin allocation for the RPi is shown below:
 <p width=100%, align="center">
 <img width=60%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Software%20Version/Platform/EUCLID%2B%20Pi%20Pin%20Allocation.png">
 </p>
+
+Notice that I originally named the main 'RHYTHM' output of EUCLID+ 'PATTERN'. Apologies for this (and any other) notational anomaly.
