@@ -35,7 +35,7 @@ There is a fuller description of the principles behind EUCLID+ operation [here](
 
 Full design details for EUCLID+ including schematics, PCB layouts for the [Main Board](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Main%20Board#readme) and [Control Board](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Control%20Board#readme) and a [Front Panel](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Front%20Panel#readme) design, are presented in the hardware folder.  
 
-For those who are discouraged by the complexity of the hardware approach - or those who would simply like to play with the method - a software-based approach is presented [here](https://github.com/m0xpd/EUCLIDplus/tree/main/Software%20Version#readme)
+For those who are discouraged by the complexity of the hardware approach - or those who would simply like to play with the method - a software implementation of EUCLID+ is presented [here](https://github.com/m0xpd/EUCLIDplus/tree/main/Software%20Version#readme)
 
 # License
 
