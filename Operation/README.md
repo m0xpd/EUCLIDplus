@@ -37,35 +37,35 @@ EUCLID+ is capable of hard-syncing the internal Oscillator to the output of its 
 
 ## Performance Examples
 
-The instance of the Euclidean Rhythm E(3,8) (= [x..x..x.]) reported on the [Front Page](https://github.com/m0xpd/EUCLIDplus/tree/main#) is actually rather rare. It was perfectly stable when the screenshot was captured, but it is difficult to reproduce. EUCLID+ more usually produces a pattern such as that seen below: 
+The instance of the Euclidean Rhythm *E*(3,8) (= [x..x..x.]) reported on the [Front Page](https://github.com/m0xpd/EUCLIDplus/tree/main#) is actually rather rare. It was perfectly stable when the screenshot was captured, but it is difficult to reproduce. EUCLID+ more usually produces a pattern such as that seen below: 
 <p width=100%, align="center">
 <img width=50%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/Rotation%20of%20E38.png">
 </p>
 
-It can be seen (with reference to the DIVIDE pulse, seen in the top Magenta trace) that the PATTERN signal is  = [x.x..x..]. This sequence is E(3,8) rotated RIGHT by two 'places'. This rotation makes the signal in the image above an instance of the same "rhythm necklace" as E(3,8); it is the same rhythm, only displaced in start point / time reference.
+It can be seen (with reference to the DIVIDE pulse, seen in the top Magenta trace) that the PATTERN signal is  = [x.x..x..]. This sequence is *E*(3,8) rotated RIGHT by two 'places'. This rotation makes the signal in the image above an instance of the same "rhythm necklace" as *E*(3,8); it is the same rhythm, only displaced in start point / time reference. People familiar with Euclidean Rhythms from other sources (e.g. Tom Whiwell / Tombola's [code](https://www.modwiggler.com/forum/viewtopic.php?p=607737#p607737)), may have seen this rotation controllable via an "Offset" patameter.
 
-The 'pure' version of E(3,8) is - perhaps - unusual because it is only a conditionally stable behaviour, suggested by the 'glitch' seen in the COMP (yellow) output coincident with the DIVIDE pulse in the image on the Front Page. 
+The 'pure' (i.e. un-rotated) version of *E*(3,8) is - perhaps - unusual on EUCLID+ because it is only a conditionally stable behaviour, suggested by the 'glitch' seen in the COMP (yellow) output coincident with the DIVIDE pulse in the image on the Front Page. 
 
 Following are some more 'scope traces of EUCLID+ performance in synchronous mode, producing Euclidean Rhythms (or - more correctly - rotations thereof).
 
-The image below shows a rotation of E(3,7) (= [x.x.x..]).
+The image below shows a rotation of *E*(3,7) (= [x.x.x..]).
 <p width=100%, align="center">
 <img width=50%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/E37.png">
 </p>
 
 It is seen that (with reference to the DIVIDE output) PATTERN = [x.x..x.]. It is seen that this signal is E(3,7) rotated LEFT by two 'places'. 
 
-The image below shows EUCLID+ generating a rotation of  E(5,12) (= [x..x.x..x.x.]).
+The image below shows EUCLID+ generating a rotation of *E*(5,12) (= [x..x.x..x.x.]).
 <p width=100%, align="center">
 <img width=50%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/E512.png">
 </p>
-It is seen that (with reference to the DIVIDE output) PATTERN = [..x.x..x.x.x]. It is seen that this signal is E(5,12) rotated LEFT by one 'place'. 
+It is seen that (with reference to the DIVIDE output) PATTERN = [..x.x..x.x.x]. It is seen that this signal is *E*(5,12) rotated LEFT by one 'place'. 
 
-The image below shows EUCLID+ generating a rotation of  E(5,16) (= [x..x..x..x..x....]).
+The image below shows EUCLID+ generating a rotation of  *E*(5,16) (= [x..x..x..x..x....]).
 <p width=100%, align="center">
 <img width=50%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/E516.png">
 </p>
-It is seen that (with reference to the DIVIDE output) PATTERN = [...x..x..x..x..x]. It is seen that this signal is E(5,16) rotated LEFT by one 'place'.
+It is seen that (with reference to the DIVIDE output) PATTERN = [...x..x..x..x..x]. It is seen that this signal is *E*(5,16) rotated LEFT by one 'place'.
 
 ## Synchronous Mode and Drift
 
