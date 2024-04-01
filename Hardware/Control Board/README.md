@@ -7,7 +7,7 @@ This folder contains details of the EUCLID+ Control Board.
 
 [This is actually a photo of the v1 Control Board. This earlier version had a different slightly footprint for C8, which is now a radial electrolytic. Also, some of the PCB tracks carrying power on the v2 version are thicker than on the V1 version, which is archived in the [v1 Control Board](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Control%20Board/v1%20Control%20Board) folder]
 
-The populated (v1) Control Board is seen (from the top/component side) in the photo below. It is mounted to the Front Panel by the potentiometers and sockets mountedd on the bottom side.
+The populated (v1) Control Board is seen (from the top/component side) in the photo below. It is mounted to the [Front Panel](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Front%20Panel#readme) by the two (9mm Alpha) potentiometers and the ten ("Thonkiconn") sockets mounted on the bottom side.
 
 <p width=100%, align="center">
 <img width=40%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/Populated%20Control%20Board.png">
