@@ -17,7 +17,7 @@ Here's a 'scope trace of EUCLID+ producing the [tresillo](https://en.wikipedia.o
 <img width=40%, src="https://github.com/m0xpd/EUCLIDplus/blob/main/Hardware/Images/E38.png">
 </p>
 
-There are some more examples of EUCLID+ performance [here](https://github.com/m0xpd/EUCLIDplus/blob/main/Operation/README.md#performance-examples).
+There are more examples of EUCLID+ performance [here](https://github.com/m0xpd/EUCLIDplus/blob/main/Operation/README.md#performance-examples).
 
 EUCLID+ divides an applied clock signal by any integer divisor up to 30, making EUCLID+ useful as a voltage-controlled hardware clock divider. The start of the clock divide cycle can be reset manually, using the RESET pushbutton, or under CV control via the Reset input.
 
