@@ -39,6 +39,10 @@ Full design details for EUCLID+ including schematics, PCB layouts for the [Main 
 
 For those who are discouraged by the complexity of the hardware approach - or those who would simply like to play with the method - a software implementation of EUCLID+ is presented [here](https://github.com/m0xpd/EUCLIDplus/tree/main/Software%20Version#readme)
 
+# Introductory Video
+
+A simple video, demonstrating some of the basic functionalty of EUCLID+, [is available](https://youtu.be/RWJx1ux7fJk) 
+
 # License
 
 EUCLID+ (including the descriptions of its operating principles, and the hardware and software embodiments described in this repository) is published under [CC BY-SA 4.0 License](https://github.com/m0xpd/EUCLIDplus/blob/main/LICENSE.txt).
