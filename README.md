@@ -41,7 +41,7 @@ Second, as explained in the [description of system operation](https://github.com
 
 Full design details for EUCLID+ including schematics, PCB layouts for the [Main Board](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Main%20Board#readme) and [Control Board](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Control%20Board#readme) and a [Front Panel](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Front%20Panel#readme) design, are presented in the hardware folder.  
 
-For those who are discouraged by the complexity of the hardware approach - or those who would simply like to play with the rhythm generation method used in EUCLID+ in a context which avoids oscillator drift and other non-ideal behaviours associated with hardware - a software implementation of EUCLID+ is presented [here](https://github.com/m0xpd/EUCLIDplus/tree/main/Software%20Version#readme)
+For those who are discouraged by the complexity of the hardware approach - or those who would simply like to play with the rhythm generation method used in EUCLID+ in a context which avoids oscillator drift and the other non-ideal behaviours associated with hardware - a software implementation of EUCLID+ is presented [here](https://github.com/m0xpd/EUCLIDplus/tree/main/Software%20Version#readme)
 
 # Introductory Video
 
