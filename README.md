@@ -41,7 +41,7 @@ For those who are discouraged by the complexity of the hardware approach - or th
 
 # Introductory Video
 
-A [simple video](https://youtu.be/RWJx1ux7fJk), demonstrates some of the basic functionalty of EUCLID+
+A [simple video](https://youtu.be/RWJx1ux7fJk) demonstrates some of the basic functionalty of EUCLID+
 
 # License
 
