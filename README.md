@@ -33,7 +33,11 @@ Switching between synchronous and asynchronous operation can be achieved manuall
 
 There is a fuller description of the principles behind EUCLID+ operation [here](https://github.com/m0xpd/EUCLIDplus/tree/main/Operation#readme) and a detailed description of circuit operation [here](https://github.com/m0xpd/EUCLIDplus/tree/main/Operation#circuit-description).
 
-The Clock Divider's DIVIDE setting is reported on five LEDs at the top left of the front panel. There are two idosyncracies of this display worth explaining. First, the binary display is arranged with least significant bit on the left, which (of course) is opposite to ordinary practice. This felt more natural with the display placed above the DIVIDE potentiometer, which generates an increasing value as it is rotated clockwise. Second, as explained in the [description of system operation](https://github.com/m0xpd/EUCLIDplus/tree/main/Operation#readme), the binary number on the LEDs must be set to one greater than the desired clock divisor. In other words, to achieve a clock division of 8, you must set the number 9 (1,0,0,1) on the LEDs.  
+The Clock Divider's DIVIDE setting is reported on five LEDs at the top left of the front panel. There are two idosyncracies of this display worth explaining. 
+
+First, the binary display is arranged with least significant bit on the left, which (of course) is opposite to ordinary practice. This felt more natural with the display placed above the DIVIDE potentiometer, which generates an increasing value as it is rotated clockwise (and the top of the knob, adjacent to the display, moves left to right). 
+
+Second, as explained in the [description of system operation](https://github.com/m0xpd/EUCLIDplus/tree/main/Operation#readme), the binary number on the LEDs must be set to one greater than the desired clock divisor. In other words, to achieve a clock division of 8, you must set the number 9 (1,0,0,1) on the LEDs.  
 
 Full design details for EUCLID+ including schematics, PCB layouts for the [Main Board](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Main%20Board#readme) and [Control Board](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Control%20Board#readme) and a [Front Panel](https://github.com/m0xpd/EUCLIDplus/tree/main/Hardware/Front%20Panel#readme) design, are presented in the hardware folder.  
 
